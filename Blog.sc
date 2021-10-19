@@ -64,8 +64,5 @@ if (targetGitRepo != "") {
 	os.proc("git", "add", "-A").call(cwd = os.pwd / "out")
 	os.proc("git", "commit", "-am", ".").call(cwd = os.pwd / "out")
 	os.proc("git", "push", targetGitRepo, "HEAD", "-f").call(cwd = os.pwd / "out")
-}
-}
-
-
+	}
 }
