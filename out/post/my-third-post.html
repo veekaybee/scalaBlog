@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css" /></head><body><h1><a href="../index.html">Blog</a>/My Third Post</h1><p>And sometimes you want to include code</p>
+<pre><code class="language-scala">// Simple Map example 
+
+val donuts1: Seq[String] = Seq(&quot;Plain&quot;, &quot;Strawberry&quot;, &quot;Glazed&quot;)
+val donuts2: Seq[String] = donuts1.map(_ + &quot; Donut&quot;)
+
+println(s&quot;Elements of donuts2 = $donuts2&quot;)
+
+val dogs: Seq[String] = Seq(&quot;beagle&quot;,&quot;Collie&quot;)
+val dogs2: Seq[String] = dogs.map(_*2)
+val dogs3: Seq[String] = dogs.map{p =&gt; p*2}
+
+println(s&quot;Elements of dogs = $dogs2&quot;)
+
+```
+</code></pre>
+</body></html>
