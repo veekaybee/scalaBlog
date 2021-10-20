@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css" /></head><body><h1><a href="../index.html">Blog</a>/Scalding</h1><h1>Scalding</h1>
+<ul>
+<li>Scalding is an abstraction on top of Cascading, which is written in Java, and it inherits a lot of its data structures, including <code>Flow</code></li>
+<li>The match+case pattern works really well instead of two separate steps with a map and filter
+TypedPipes are the main unit of work in Scalding. They can be most any type. Think of them as a distributed List or Array.</li>
+<li>TypedPipes fork in order to both write to a file and for use further downstream in a program</li>
+<li>Writing intermediate files to test is important</li>
+<li>Always filter as early as possible in the process so you’re not churning through a lot of data</li>
+<li>Make sure to specify a default amount of reducers</li>
+</ul>
+</body></html>

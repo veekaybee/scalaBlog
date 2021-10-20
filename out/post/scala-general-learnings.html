@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css" /></head><body><h1><a href="../index.html">Blog</a>/Scala General Learnings</h1><p>Scala Learnings</p>
+<ul>
+<li>Most variables should be <code>val</code>, immutable by default, and very rarely will you use <code>var</code></li>
+<li>Scala tuples can’t hold more than 22 values</li>
+<li>If you have more than 22 fields, consider using a <a href="https://docs.scala-lang.org/tour/case-classes.html">case class</a>, a class that contains immutable fields and their type definitions</li>
+<li><a href="https://ammonite.io/">Ammonite</a> is a great tool for interactively working with small Scala scripts, POCs, and for seeing what methods any given object can have</li>
+<li>Option[T] represents a value that may/may not exist; Some[v:T]</li>
+<li>Scala likes to use T, V, and K as the main variable/class representation variables</li>
+<li>Options are often used instead of nulls, Options include Some/None. This makes it easy to do getOrElse, which substitutes an alternative value if Option is None.</li>
+</ul>
+</body></html>
